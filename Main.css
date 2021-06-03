@@ -4,13 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: lightblue;
+    background-color: rgb(219, 133, 133);
     text-decoration: none;
 }
 
 .Indexbox{
     justify-content: center;
-    
+
 
 }
 
@@ -28,7 +28,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 30px 10%;
-background-color: lightblue;
+background-color:rgb(253, 167, 167);
 padding: 20px;
 border-top: 3px groove black;
 border-left: 3px groove black;
@@ -44,7 +44,7 @@ flex-direction: column;
 flex-wrap: wrap;
 justify-content: space-around;
 justify-content: left;
-background-color: lightblue;
+background-color: rgb(219, 133, 133);
 }
 
 
@@ -54,7 +54,7 @@ background-color: lightblue;
     flex-wrap: wrap;
     justify-content: space-around;
     justify-content: right;
-    background-color: lightblue;
+    background-color: rgb(219, 133, 133);
 
 }
 
@@ -109,7 +109,7 @@ button:hover{
     text-align: center;
     text-decoration: none;
     display:  inline-block;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(219, 133, 133);
     border-style: solid;
     border-width: 2px;
     border-color: black;   
@@ -184,6 +184,7 @@ justify-content: space-between;
 align-items: center;
 padding: 30px 10%;
 background-color: lightblue;
+font-size: 16px;
 
 
 }
