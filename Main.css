@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+.Indexbox{
+    justify-content: center;
+    
+
+}
+
+list.a.button{
+    font-family: "Montserrat" sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: edf 0f 1px;
+    text-decoration: none;
+
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+background-color: lightblue;
+padding: 20px;
+border-top: 3px groove black;
+border-left: 3px groove black;
+border-right: 3px groove black;
+border-bottom: 3px groove black;
+
+}
+
+.container{
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+justify-content: left;
+background-color: lightblue;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: right;
+    background-color: lightblue;
+
+}
+
+.background{
+    
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+
+}
+/*Cursor change when hoovered over*/
+
+/**/
+.NavLinks{
+    list-style: none;
+}
+/*Lists Side by side*/
+.NavLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+/*Transition of colour */
+.NavLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.NavLinks li a:hover{
+    color: #0088a9
+    
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.box {
+    display: flex;
+    font-family: Montserrat, "Arial, Helvetica, sans-serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    display:  inline-block;
+    background-color: rgba(0,136,169,1);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;   
+    position: middle;
+    justify-content: center;
+    
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: auto;
+
+}
+
+.flexbox{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: lightblue;
+    
+
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: lightblue;
+    
+
+}
+
+.Aboutbox{
+    margin: auto;
+    text-align: center;
+    pointer-events: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Montserrat, "Arial, Helvetica, sans-serif";
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+    border-top: black;
+    pointer-events: none;
+        /*text-transform: capitalize; Capital letter for each word*/
+
+}
+
+p{
+    background-color: lightblue;
+    padding: 20px;
+    border-top: 3px groove black;
+    border-left: 3px groove black;
+    border-right: 3px groove black;
+    border-bottom: 3px groove black;
+    pointer-events: none;
+}
+
+.links{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+background-color: lightblue;
+
+
+}
+.Games{
+
+    pointer-events: none;
+}
+
+.ContactBox{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    pointer-events: none;
+
+}
+
+.ContactLinks{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.Eventsbox{
+    justify-content: center;
+    pointer-events: none;
+}
+
+.CopyrightLogo{
+    display: flex;
+    justify-content: center;
+    left: 0%;
+    right: 0;
+    bottom: 5;
+    background: lightblue;
+}
+
+.CopyrightText{
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-size: 12px;
+
+}
+
+.footer{
+
+    position: fixed;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: lightblue;
+}
+
