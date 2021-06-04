@@ -4,10 +4,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(219, 133, 133);
+    background-color: lightblue;
     text-decoration: none;
 }
 
+.bg-image{
+    background-image: url("C:\Users\Magan\Desktop\New folder (2)\navbar\1\Images\Playoff.jpg");
+    padding: 5em;
+    outline: 2px solid black;
+    background-color: transparent;
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    
+   
+}
 .Indexbox{
     justify-content: center;
 
@@ -28,7 +38,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 30px 10%;
-background-color:rgb(253, 167, 167);
+background-color:rgb(111, 194, 241);
 padding: 20px;
 border-top: 3px groove black;
 border-left: 3px groove black;
@@ -44,7 +54,7 @@ flex-direction: column;
 flex-wrap: wrap;
 justify-content: space-around;
 justify-content: left;
-background-color: rgb(219, 133, 133);
+background-color: rgb(111, 194, 241);
 }
 
 
@@ -54,31 +64,28 @@ background-color: rgb(219, 133, 133);
     flex-wrap: wrap;
     justify-content: space-around;
     justify-content: right;
-    background-color: rgb(219, 133, 133);
+    background-color: rgb(111, 194, 241);
 
 }
 
-.background{
-    
-    height: fit-content;
-    width: fit-content;
-    justify-content: center;
 
-}
 /*Cursor change when hoovered over*/
 
 /**/
 .NavLinks{
     list-style: none;
+    background-color: rgb(111, 194, 241);
 }
 /*Lists Side by side*/
 .NavLinks li {
     display: inline-block;
     padding: 0px 20px;
+    background-color: rgb(111, 194, 241);
 }
 /*Transition of colour */
 .NavLinks li a{
     transition: all 0.3s ease 0s;
+    
 }
 
 .NavLinks li a:hover{
@@ -109,7 +116,7 @@ button:hover{
     text-align: center;
     text-decoration: none;
     display:  inline-block;
-    background-color: rgb(219, 133, 133);
+    background-color: rgb(111, 194, 241);
     border-style: solid;
     border-width: 2px;
     border-color: black;   
@@ -196,6 +203,7 @@ font-size: 16px;
 .ContactBox{
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 20px;
     pointer-events: none;
 
@@ -204,9 +212,9 @@ font-size: 16px;
 .ContactLinks{
     display: flex;
     justify-content: space-between;
-    justify-content: center;
-    margin-top: 10px;
-    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
 }
 
 .Eventsbox{
